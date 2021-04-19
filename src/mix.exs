@@ -25,7 +25,8 @@ defmodule Blu.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.23.0", only: [:dev], runtime: false},
-      {:harald, "~> 0.2.0"}
+      {:hook, "~> 0.3.0"},
+      {:harald, path: "~/vp/labs/harald/src"}
     ]
   end
 
